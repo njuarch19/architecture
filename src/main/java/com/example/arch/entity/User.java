@@ -7,16 +7,16 @@ import javax.persistence.Id;
 
 /**
  * @author hxh
- * @date 2019-02-21 12:04
+ * @date 2019-02-21 12:19
  */
 @Data
 @Entity
-public class Category {
+public class User {
     @Id
-    private int id;
-    private int parentId;
-    private String name;
+    public int id;
+    public String username;
+    public String password;
 
-    public Category() {
+    public User() {
     }
 }
